@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Top Products</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1 class="titulo">Top Products</h1>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <table id="tabela-product">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Availability</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabela-products">
+                    <tr class="product">
+                        <td class="info-product"><img class="imagens-bolsas" src="img/bolsa1.jpg" alt=""></td>
+                        <td class="info-availability">320 In Stock</td>
+                        <td class="info-total">$29,192</td>
+
+                    </tr>
+
+                    <tr class="paciente">
+                        <td class="info-product"><img class="imagens-bolsas" src="img/bolsa2.jpeg" alt=""></td>
+                        <td class="info-availability">Out of Stock</td>
+                        <td class="info-total">$29,192</td>
+                    </tr>
+
+                    <tr class="paciente">
+                        <td class="info-product"><img class="imagens-bolsas" src="img/bolsa3.jpeg" alt=""></td>
+                        <td class="info-availability">3 In Stock</td>
+                        <td class="info-total">$29,192</td>
+                    </tr>
+
+                    <tr class="paciente">
+                        <td class="info-product"><img class="imagens-bolsas" src="img/bolsa4.jpeg" alt=""></td>
+                        <td class="info-availability">3 In Stock</td>
+                        <td class="info-total">$29,192</td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+        <section class="container">
+            <h2 id="titulo-form">Adicionar novo produto</h2>
+            <ul id="mesagem-erro" class="mesagem-erro"></ul>
+            <form id="formulario">
+                <div class="grupo">
+                    <label for="product">Product:</label>
+                    <input id="product" name="product" type="text" placeholder="digite o nome do seu produto"
+                        class="campo">
+                </div>
+                <div class="grupo">
+                    <label for="availability">Availability:</label>
+                    <input id="availability" name="availability" type="text"
+                        placeholder="digite quantos produtos tem em estoque" class="campo campo-medio">
+                </div>
+                <div class="grupo">
+                    <label for="total">Total:</label>
+                    <input id="total" name="total" type="text" placeholder="digite qual e o total"
+                        class="campo campo-medio">
+                </div>
+
+                <button id="adicionar-product" class="botao bto-principal">Adicionar</button>
+            </form>
+        </section>
+    </main>
+    </main>
+
+    </main>
+    
+</body>
+
+</html>
